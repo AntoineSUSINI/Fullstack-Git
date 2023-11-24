@@ -25,8 +25,27 @@ services:
       - ./kpop_music_videos.csv:/app/kpop_music_videos.csv
     command: ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "5000", "--reload"]
     ports:
-    - "8080:5000"
+    - "5080:5000"
     env_file:
       - .env
     depends_on:
       - db
+
+# Ajout du service Keycloak
+  keycloak:
+    image: sleighzy/keycloak
+    env_file:
+      - .env
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+    networks:
+      - default
+    volumes:
+      - keycloak_data:/opt/jboss/keycloak/standalone/data
+      - keycloak_log:/opt/jboss/keycloak/standalone/log
+
+volumes:
+  keycloak_data:
+  keycloak_log:

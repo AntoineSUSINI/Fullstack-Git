@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+#music-videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.music-video {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    width: 300px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.music-video h2 {
+    font-size: 1.2em;
+    margin-top: 0;
+}
+
+#load-more {
+    display: block; /* Ou initial selon votre logique d'affichage */
+    margin: 20px auto; /* Centrage horizontal */
+    padding: 10px 20px; /* Ajustez selon vos préférences */
+    /* Autres styles pour le bouton (couleur, bordure, etc.) */
+}
+
+  
