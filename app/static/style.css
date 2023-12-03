@@ -8,8 +8,41 @@ body {
 header {
     background-color: #333;
     color: white;
-    text-align: center;
     padding: 1em 0;
+    position: relative;
+}
+
+.header-logo {
+    position: absolute;
+    top: 1em;
+    left: 1em;
+}
+
+.header-logo img {
+    width: 150px;
+    height: auto;
+}
+
+.center-content {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.center-content h1,
+.center-content #search-box,
+.center-content #video-count {
+    margin: 0;
+    padding: 0.5em 0;
+}
+
+
+.center-content #search-box {
+    margin-bottom: 1em; 
+}
+
+.center-content .sort-options {
+    margin: 0.5em 0;
 }
 
 #music-videos {
@@ -35,10 +68,7 @@ header {
 }
 
 #load-more {
-    display: block; /* Ou initial selon votre logique d'affichage */
-    margin: 20px auto; /* Centrage horizontal */
-    padding: 10px 20px; /* Ajustez selon vos préférences */
-    /* Autres styles pour le bouton (couleur, bordure, etc.) */
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
 }
-
-  

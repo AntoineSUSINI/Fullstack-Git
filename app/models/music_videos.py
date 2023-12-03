@@ -2,14 +2,14 @@ import pandas as pd
 from sqlalchemy import create_engine, inspect
 from sqlalchemy.orm import sessionmaker
 from models.database import SQLALCHEMY_DATABASE_URL
-from importers.csv_import import MusicVideo  # Assurez-vous d'importer votre modèle ici
+from models.csv_import import MusicVideo  
 from models.database import BaseSQL
 
 # Configuration de la connexion à la base de données
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
 
 try:
-    # Tente de se connecter à la base de données
+    # Connexion à la base de données
     engine.connect()
     print("Connexion à la base de données réussie.")
 except Exception as e:
@@ -21,7 +21,7 @@ inspector = inspect(engine)
 
 BaseSQL.metadata.create_all(engine)
 
-# Vérification si la table 'music_videos' existe et est vide
+# Vérification si la table 'music_videos' existe et est vide afin de savoir si les données doivent être insérées
 if 'music_videos' in inspector.get_table_names():
     print("La table 'music_videos' existe.")
     session = Session()

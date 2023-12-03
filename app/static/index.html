@@ -3,20 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Music Videos</title>
+    <title>K-POP 1992-2020</title>
     <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
     <header>
-        <h1>K-POP 1994-2020</h1>
-        <input type="text" id="search-box" placeholder="Rechercher un artiste ou une chanson">
-        <span id="video-count"></span>
+        <div class="header-logo">
+            <img src="/assets/lesserafim_logo.png" alt="logo">
+        </div>
+        <div class="center-content">
+            <h1>K-POP 1992-2020</h1>
+            <input type="text" id="search-box" placeholder="Rechercher un artiste ou une chanson">
+            <span id="video-count"></span>
+            <div class="sort-options">
+                <select id="sort-select">
+                    <option value="name-asc">Nom de la chanson (A-Z)</option>
+                    <option value="name-desc">Nom de la chanson (Z-A)</option>
+                    <option value="artist-asc">Artiste (A-Z)</option>
+                    <option value="artist-desc">Artiste (Z-A)</option>
+                    <option value="date-asc">Date (croissant)</option>
+                    <option value="date-desc">Date (décroissant)</option>
+                </select>
+            </div>
+        </div>
     </header>
     <section id="music-videos">
-        <!-- Les vidéos musicales seront chargées ici -->
     </section>
-    <script src="/static/script.js"></script>
     <button id="load-more" style="display:none;">Charger plus</button>
+    <script src="/static/script.js"></script>
 </body>
 </html>
-

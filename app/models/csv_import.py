@@ -3,9 +3,6 @@ from sqlalchemy.ext.declarative import declarative_base
 from models.database import BaseSQL,engine
 
 
-#Base = declarative_base()
-#BaseSQL.metadata.create_all(engine)
-
 class MusicVideo(BaseSQL):
     __tablename__ = 'music_videos'
     id = Column(Integer, primary_key=True, autoincrement=True)

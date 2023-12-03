@@ -17,9 +17,7 @@ engine = create_engine(
 )
 
 BaseSQL = declarative_base()
-#BaseSQL.metadata.create_all(engine)
 
-#Base.metadata.create_all(engine)
 #Création de la session
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
