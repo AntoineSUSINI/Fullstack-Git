@@ -3,7 +3,7 @@
 ## Présentation du projet
 
 Ce projet a pour but de regrouper toutes les chansons de KPOP entre 2014 et 2020. Il est possible de rechercher une chanson par son nom, son artiste. Il est également possible de trier les chansons par ordre alphabétique, artiste ou par année de sortie par ordre croissant ou décroissant. 
-L'API, la base de donnée POSTGRESQL et le service d'authentification KEYCLOAK sont conteneurisés et possèdent leur propre container.
+L'API, la base de donnée POSTGRESQL et le service d'authentification KEYCLOAK sont conteneurisés et possèdent leur propre conteneur.
 
 ## Composition du projet 
 Dans le fichier racine se trouve les fichiers suivants :
@@ -40,7 +40,7 @@ Le site web est dynamique, il est possible de rechercher une chanson par son nom
 
 ## Difficultés rencontrées
 Nous avons essayé d'implémenter une méthode d'authentification pour que l'utilisateur puisse se connecter à son compte. Pour ce faire, nous avons utiliser l'outil Keycloak qui permet de gérer l'authentification et l'autorisation. Cependant, nous n'avons pas réussi à faire fonctionner Keycloak avec notre projet.
-Keycloak est prêt à l'emploi et possède son propre container mais nous avons mal du réaliser le processus d'intégration. 
+Keycloak est prêt à l'emploi et possède son propre conteneur mais nous avons mal du réaliser le processus d'intégration. 
 
 ## Conclusion
 Nous avons réussi à créer un site web dynamique qui permet de rechercher des chansons de KPOP par leur nom, leur artiste ou de les trier par ordre alphabétique, artiste ou par année de sortie par ordre croissant ou décroissant.
