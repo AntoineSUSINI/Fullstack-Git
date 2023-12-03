@@ -32,7 +32,7 @@ Pour lancer les containers et vérifier le fonctionnement du projet, il faut:
 
 
 ## Déroulement du projet
-Dans un premier temps nous avons voulu initialiser la base de données avec ke fichier database.py dans le but de la remplir de données que nous avons récupéré sur le site Kaggle (https://www.kaggle.com/datasets/kimjihoo/kpopdb). Nous avons donc créé un fichier csv_import.py qui contient la forme du fichier csv que nous utilisons et créé la table dans la base de données. Nous avons ensuite créé un fichier music_videos.py qui insère les données dans la base de données. 
+Dans un premier temps nous avons voulu initialiser la base de données avec le fichier database.py dans le but de la remplir de données que nous avons récupéré sur le site Kaggle (https://www.kaggle.com/datasets/kimjihoo/kpopdb). Nous avons donc créé un fichier csv_import.py qui contient la forme du fichier csv que nous utilisons et créé la table dans la base de données. Nous avons ensuite créé un fichier music_videos.py qui insère les données dans la base de données. 
 
 Après cette étape et avoir vérifié que nos données étaient bien stockées dans la base, nous avons créé le fichier index.html qui contient le code html du projet. Nous avons ensuite créé le fichier style.css qui contient le code css du projet. Enfin, nous avons créé le fichier scripts.js qui contient le code javascript du projet. Avec ces trois fichiers, nous avons pu créer la page web que nous souhaitions. 
 Le site web est dynamique, il est possible de rechercher une chanson par son nom, son artiste. Il est également possible de trier les chansons par ordre alphabétique, artiste ou par année de sortie par ordre croissant ou décroissant.
