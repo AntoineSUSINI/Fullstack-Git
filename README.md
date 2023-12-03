@@ -5,6 +5,13 @@
 Ce projet a pour but de regrouper toutes les chansons de KPOP entre 1992 et 2020. Il est possible de rechercher une chanson par son nom, son artiste. Il est également possible de trier les chansons par ordre alphabétique, artiste ou par année de sortie par ordre croissant ou décroissant. 
 L'API, la base de donnée POSTGRESQL et le service d'authentification KEYCLOAK sont conteneurisés et possèdent leur propre conteneur.
 
+## Utilisation:
+
+Utiliser la commande suivante pour cloner le repository
+git clone https://github.com/AntoineSUSINI/Fullstack-Git.git
+
+Se rendre sur la page `http://localhost:5080/front/` 
+
 ## Composition du projet 
 Dans le fichier racine se trouve les fichiers suivants :
 - README.md : présentation du projet
@@ -45,3 +52,5 @@ Keycloak est prêt à l'emploi et possède son propre conteneur mais nous avons 
 ## Conclusion
 Nous avons réussi à créer un site web dynamique qui permet de rechercher des chansons de KPOP par leur nom, leur artiste ou de les trier par ordre alphabétique, artiste ou par année de sortie par ordre croissant ou décroissant.
 Ce projet nous a permis d'étendre nos connaissances sur Docker et les bases de données. Nous avons également pu améliorer nos compétences en python, html, css et javascript.
+
+Créé par Antoine SUSINI et Louis MICHEL
