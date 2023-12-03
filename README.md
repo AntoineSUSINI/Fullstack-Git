@@ -1,8 +1,8 @@
-# Site regroupant toutes les chansons de KPOP entre 2014 et 2020
+# Site regroupant toutes les chansons de KPOP entre 1992 et 2020
 
 ## Présentation du projet
 
-Ce projet a pour but de regrouper toutes les chansons de KPOP entre 2014 et 2020. Il est possible de rechercher une chanson par son nom, son artiste. Il est également possible de trier les chansons par ordre alphabétique, artiste ou par année de sortie par ordre croissant ou décroissant. 
+Ce projet a pour but de regrouper toutes les chansons de KPOP entre 1992 et 2020. Il est possible de rechercher une chanson par son nom, son artiste. Il est également possible de trier les chansons par ordre alphabétique, artiste ou par année de sortie par ordre croissant ou décroissant. 
 L'API, la base de donnée POSTGRESQL et le service d'authentification KEYCLOAK sont conteneurisés et possèdent leur propre conteneur.
 
 ## Composition du projet 
