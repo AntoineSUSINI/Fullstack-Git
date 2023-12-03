@@ -11,6 +11,10 @@ Utiliser la commande suivante pour cloner le repository
 ```
 git clone https://github.com/AntoineSUSINI/Fullstack-Git.git
 ```
+Ouvrez Docker et le dossier contenant le projet et tapez la commande suivante:
+```
+docker-compose -f docker-compose.yml up
+```
 
 Se rendre sur la page `http://localhost:5080/front/` 
 
