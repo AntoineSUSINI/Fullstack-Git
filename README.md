@@ -8,7 +8,9 @@ L'API, la base de donnée POSTGRESQL et le service d'authentification KEYCLOAK s
 ## Utilisation:
 
 Utiliser la commande suivante pour cloner le repository
-'git clone https://github.com/AntoineSUSINI/Fullstack-Git.git'
+```
+git clone https://github.com/AntoineSUSINI/Fullstack-Git.git
+```
 
 Se rendre sur la page `http://localhost:5080/front/` 
 
