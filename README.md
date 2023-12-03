@@ -10,7 +10,8 @@ Dans le fichier racine se trouve les fichiers suivants :
 - DOCKERFILE : fichier permettant de créer l'image docker
 - docker-compose.yml : fichier permettant de lancer le projet
 - requirements.txt : fichier contenant les librairies python nécessaires au projet
-- .env qui contient les variables d'environnement (qui n'est pas exporté sur github)
+- .env qui contient les variables d'environnement 
+- kpop_music_videos.csv : fichier csv contenant les données que nous utilisons pour remplir la base de données
 
 Dans le fichier app se trouvent les fichiers suivants :
 - main.py : fichier python contenant le code du projet 
