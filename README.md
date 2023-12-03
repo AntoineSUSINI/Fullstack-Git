@@ -1,4 +1,4 @@
-# Site regroupant tous les chansons de KPOP entre 2014 et 2020
+# Site regroupant toutes les chansons de KPOP entre 2014 et 2020
 
 ## Présentation du projet
 
